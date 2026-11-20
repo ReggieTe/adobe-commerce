@@ -24,6 +24,7 @@ adobe/
 ├── integration/               Integrating 3rd and native solutions to Adobe DXP
 ├── design/                    Design guide for Adobe DXP
 ├── hosting/                   Design guide for hosting Adobe DXP  
+├── training/                  Training guide for Client's Adobe DXP Team   
 └── support/                   Running and supporting Adobe DXP             (gates S1–S7)
 ```
 
@@ -195,6 +196,33 @@ The hosting decision must be made during the Design phase, following Discovery a
 ---
 
 
+## 7. Training
+
+[`training/`](training/README.md) — *Enterprise Adobe DXP training guide v1.0*
+
+This document defines the training, certification and knowledge-transfer strategy for an enterprise Adobe DXP implementation or migration.
+
+The objective is to ensure that the client has the technical knowledge, professional capabilities and operational skills required to manage the platform after the implementation consultants complete their engagement.
+
+The strategy covers:
+
+    Adobe product training.
+    Adobe professional certification.
+    Technical implementation training.
+    Integration and middleware training.
+    Cloud and infrastructure training.
+    Security and compliance training.
+    Quality assurance and testing.
+    Content and business-user training.
+    Application support and troubleshooting.
+    Operational knowledge transfer.
+    Continuous professional development.
+
+**Core principle: The implementation team builds the platform while progressively building the client's capability to own, support and evolve it.**
+
+---
+
+
 ## Shared conventions
 
 | Convention | Applies to | Summary |
@@ -210,6 +238,16 @@ The hosting decision must be made during the Design phase, following Discovery a
 
 ## Who prepared it
 [Regis Tembachako](https://github.com/ReggieTe/ReggieTe)  
+
+*Seven Adobe Commerce certifications, three at Adobe Certified Expert level.*
+
+- **Adobe Certified Expert — Adobe Commerce Developer** — Adobe · Aug 2025 · [Verify](https://certification.adobe.com/credential/verify/8748de0f-846b-11f0-8ca0-42010a400fd3)   
+- **Adobe Certified Expert — Adobe Commerce Business Practitioner** — Adobe · Jul 2025 · [Verify](https://certification.adobe.com/credential/verify/c0473940-699a-11f0-9b2a-42010a400fc3)  
+- **Adobe Certified Expert — Adobe Commerce Front-End Developer** — Adobe · Jun 2025 · [Verify](https://certification.adobe.com/credential/verify/f3b7eb91-4e19-11f0-9b2a-42010a400fc3) 
+- **Professional Developer — Adobe Commerce (AD0-E717)** — SwiftOtter · Aug 2024 · [Verify](https://www.credential.net/945e91da-c797-4912-9a11-6706f298be0b#acc.3rSEKjB7)  
+- **Adobe Certified Professional — Adobe Commerce Developer** — Adobe · Jul 2024 · [Verify](https://certification.adobe.com/credential/verify/8f96fe8b-1f1c-466e-ba86-c0c7718c1aeb) 
+- **Adobe Certified Professional — Adobe Commerce Business Practitioner** — Adobe · May 2024 · [Verify](https://certification.adobe.com/credential/verify/cdf41e55-b05b-4738-9a9e-7a19b30cc5ed) 
+- **Adobe Certified Professional — Adobe Commerce Front-End Developer** — Adobe · Apr 2024 · [Verify](https://certification.adobe.com/credential/verify/f76ace19-aa4c-4811-8db7-68191429a635) 
 
 ---
 
