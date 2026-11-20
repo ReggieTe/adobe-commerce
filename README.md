@@ -22,7 +22,8 @@ adobe/
 │                              Shopify / custom platform             (gates D1–D7)
 ├── development/               Building and changing solutions on Adobe DXP  (gates E1–E7)
 ├── integration/               Integrating 3rd and native solutions to Adobe DXP
-├── design/                    Design guide for Adobe DXP  
+├── design/                    Design guide for Adobe DXP
+├── hosting/                   Design guide for hosting Adobe DXP  
 └── support/                   Running and supporting Adobe DXP             (gates S1–S7)
 ```
 
@@ -165,6 +166,31 @@ The objective is to determine whether the organisation should:
 
 **Important:** Choose the simplest architecture that satisfies the organisation's business requirements, performance targets, integration needs and long-term digital strategy. Architectural complexity should be justified by measurable business value.
 
+
+---
+
+
+## 6. Hosting
+
+[`hosting/`](hosting/README.md) — *Enterprise Adobe DXP hosting guide v1.0*
+
+This document establishes the hosting and infrastructure considerations when designing an Adobe Digital Experience Platform (DXP) implementation.
+
+The objective is to select a hosting model that supports the organisation's:
+
+- Business and technical requirements.
+- Adobe product and deployment model.
+- Performance and scalability expectations.
+- Availability and disaster recovery requirements.
+- Security, regulatory and data residency obligations.
+- Integration and network architecture.
+- Operational capabilities and support model.
+- Budget and total cost of ownership (TCO).
+- Future growth and digital transformation strategy.
+
+The hosting decision must be made during the Design phase, following Discovery and Assessment.
+
+**Core principle: Select the hosting architecture based on the Adobe product's supported deployment model and the organisation's operational requirements—not simply on the popularity or advertised cost of a cloud provider.**
 
 ---
 
