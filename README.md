@@ -21,7 +21,8 @@ adobe/
 │   └── downscaling/           Adobe DXP → WooCommerce / PrestaShop /
 │                              Shopify / custom platform             (gates D1–D7)
 ├── development/               Building and changing solutions on Adobe DXP  (gates E1–E7)
-├── integration/               Integrating 3rd and native solutions to Adobe DXP  
+├── integration/               Integrating 3rd and native solutions to Adobe DXP
+├── design/                    Design guide for Adobe DXP  
 └── support/                   Running and supporting Adobe DXP             (gates S1–S7)
 ```
 
@@ -145,6 +146,24 @@ This directory identifies commonly encountered enterprise platforms and provides
 | File-based integration | Data exchange through CSV, XML, JSON, SFTP or scheduled batch processes |
 
 **Important:** A vendor having an API does not mean it has a ready-made Adobe Commerce extension. Confirm extension availability, licensing, supported Adobe Commerce versions and compatibility with the target deployment model before selecting an implementation approach.
+
+
+---
+
+## 5. Design
+
+[`design/`](design/README.md) — *Enterprise Adobe DXP Design guide v1.0*
+
+This document provides a framework for selecting the appropriate frontend architecture when migrating an existing digital commerce platform to Adobe Commerce.
+
+The objective is to determine whether the organisation should:
+
+    Retain the native Adobe Commerce storefront architecture.
+    Adopt Hyvä as the Adobe Commerce frontend.
+    Implement a headless or decoupled storefront using a modern frontend framework.
+
+
+**Important:** Choose the simplest architecture that satisfies the organisation's business requirements, performance targets, integration needs and long-term digital strategy. Architectural complexity should be justified by measurable business value.
 
 
 ---
