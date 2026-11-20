@@ -136,10 +136,8 @@ Highlights: shared-responsibility matrix across Adobe, host, MSP and client; L1â
 ---
 
 ## Who prepared it
+[Regis Tembachako](https://github.com/ReggieTe/ReggieTe)  
 
-**Prepared by:** `Regis Tembachako`
-**Role / title:** `Adobe DXP Consultant / Ecomerce Solution Architect`
-**Location:** `South Africa`
 ---
 
 ## Using this repository
