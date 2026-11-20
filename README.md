@@ -122,7 +122,7 @@ A service lifecycle for designing, transitioning in, running and continually imp
 Highlights: shared-responsibility matrix across Adobe, host, MSP and client; L1–L3 tiers; severity and SLA design; major incident procedure; per-product daily, weekly and monthly operations for AEM, Commerce, AEP, Experience Cloud and integrations; vendor escalation with evidence.
 
 ---
-## 3. Integrations
+## 4. Integrations
 
 [`integration/`](integration/README.md) — *Enterprise Adobe DXP native and 3rd party integrations Handbook v1.0*
 
