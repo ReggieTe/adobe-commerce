@@ -21,6 +21,7 @@ adobe/
 │   └── downscaling/           Adobe DXP → WooCommerce / PrestaShop /
 │                              Shopify / custom platform             (gates D1–D7)
 ├── development/               Building and changing solutions on Adobe DXP  (gates E1–E7)
+├── integration/               Integrating 3rd and native solutions to Adobe DXP  
 └── support/                   Running and supporting Adobe DXP             (gates S1–S7)
 ```
 
@@ -121,6 +122,33 @@ A service lifecycle for designing, transitioning in, running and continually imp
 Highlights: shared-responsibility matrix across Adobe, host, MSP and client; L1–L3 tiers; severity and SLA design; major incident procedure; per-product daily, weekly and monthly operations for AEM, Commerce, AEP, Experience Cloud and integrations; vendor escalation with evidence.
 
 ---
+## 3. Integrations
+
+[`integration/`](integration/README.md) — *Enterprise Adobe DXP native and 3rd party integrations Handbook v1.0*
+
+
+Enterprise Adobe DXP implementations commonly integrate with external business applications that already manage customers, products, pricing, inventory, orders, payments, fulfilment, marketing and analytics.
+
+These systems may be integrated directly with Adobe Commerce, through an enterprise integration platform (iPaaS), through an API gateway, or using custom integration services.
+
+This directory identifies commonly encountered enterprise platforms and provides links to their official API documentation, developer portals or Adobe Commerce integration modules.
+
+### Integration implementation types
+
+| Integration type | Description |
+|---|---|
+| Native Adobe integration | An integration provided and supported by Adobe for a specific Adobe product |
+| Adobe Commerce extension | An installable extension that adds functionality or connects Commerce to an external platform |
+| Vendor connector | An integration module supplied by the third-party software vendor |
+| Middleware integration | An integration implemented through MuleSoft, Boomi, Workato or another integration platform |
+| Custom API integration | A bespoke connection using REST, GraphQL, SOAP, webhooks or event messaging |
+| File-based integration | Data exchange through CSV, XML, JSON, SFTP or scheduled batch processes |
+
+**Important:** A vendor having an API does not mean it has a ready-made Adobe Commerce extension. Confirm extension availability, licensing, supported Adobe Commerce versions and compatibility with the target deployment model before selecting an implementation approach.
+
+
+---
+
 
 ## Shared conventions
 
